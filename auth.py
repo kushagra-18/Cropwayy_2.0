@@ -18,11 +18,11 @@ from flask_login import UserMixin
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:@localhost/cropwayydb'
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:@localhost/cropwayydb'
 
 
 
-#app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://j11fvto5iurgtq5g:azexhue5rm89yozp@s29oj5odr85rij2o.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/bvvlmoar5geaj52x"
+app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://j11fvto5iurgtq5g:azexhue5rm89yozp@s29oj5odr85rij2o.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/bvvlmoar5geaj52x"
 
 
 
